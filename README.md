@@ -2,10 +2,10 @@
 图片预先显示，并转为二进制流，上传到ajax
 
 
-
-
-
 //点击上传图片，之后，创建oo临时对象，push进对应的list数组
+
+
+
     function imgUp(tt, ii) {
         if($(tt).val()!=''){
             if ($(tt).parent().parent().find('.preview').length < 3) {
